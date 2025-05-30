@@ -1,0 +1,40 @@
+.header {
+    background-image: url("../img/red.jpg");/* 背景の場所を指定する */
+    background-size: cover;                 /* 繰り返し表示を防ぐ */
+    width: 300px;
+    height: 100px;                         /* 幅と高さを指定する */
+  }
+
+  .thanks__content {
+    margin: 0 auto;
+    padding: 60px 0px;
+    max-width: 600px;
+  }
+  
+  .thanks__heading {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 400px;
+    line-height: 600px;
+    color: #8b7969;
+  }
+  
+  .thanks__back {
+    position: absolute;
+    text-align: center;
+    right: 600;
+    bottom: 600;
+  }
+
+  .home-submit {
+    display: inline-block;
+    text-align: center;
+    font-family: serif;
+    margin: 0em 0em 10em 18em;
+    padding: 1em 2.5em;
+    border: none;
+    text-decoration: none;
+    background-color: #8b7969;
+    color: #ffffff;
+  }
